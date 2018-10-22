@@ -31,7 +31,7 @@ export class CategoryDataService {
 
   // Simulate PUT /categories/:id
   updateCategoryById(id: number, values: Object = {}): Category | any {
-    let category = this.getCategoryById(id);
+    const category = this.getCategoryById(id);
     if (!category) {
       return null;
     }

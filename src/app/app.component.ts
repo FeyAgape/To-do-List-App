@@ -81,15 +81,15 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     let initCat = new Category();
-    initCat = {'name' : 'Today', 'id' : 1 , };
+    initCat = {'name' : 'Monday', 'id' : 1 , };
     this.addInitialCategory(initCat);
-    initCat = {'name' : 'Tomorrow', 'id' : 2 , };
+    initCat = {'name' : 'Tuesday', 'id' : 2 , };
     this.addInitialCategory(initCat);
-    initCat = {'name' : 'Work', 'id' : 3 , };
+    initCat = {'name' : 'Wednesday', 'id' : 3 , };
     this.addInitialCategory(initCat);
-    initCat = {'name' : 'Holidays', 'id' : 4 , };
+    initCat = {'name' : 'Thursday', 'id' : 4 , };
     this.addInitialCategory(initCat);
-    initCat = {'name' : 'Shopping list', 'id' : 5 , };
+    initCat = {'name' : 'Friday', 'id' : 5 , };
     this.addInitialCategory(initCat);
 
     let initTodo = new Todo();
